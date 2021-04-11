@@ -1,4 +1,4 @@
 
 FROM arm64v8/alpine
-COPY target/listdir listdir
+COPY $GRAALVM_HOME/bin/native-image/listdir listdir
 ENTRYPOINT ["listdir"]
