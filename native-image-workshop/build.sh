@@ -1,1 +1,1 @@
-mvn clean package -PNATIVE_IMAGE
+mvn clean install -PNATIVE_IMAGE
